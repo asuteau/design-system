@@ -1,3 +1,4 @@
+import type {Config} from 'tailwindcss';
 import {fontFamily} from 'tailwindcss/defaultTheme';
 import colors from 'tailwindcss/colors';
 
@@ -11,8 +12,7 @@ const spacingUnits = {
   xxl: '5rem', // 80pt
 };
 
-/** @type {import('tailwindcss').Config} */
-export default {
+const config: Config = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
@@ -39,3 +39,5 @@ export default {
   },
   plugins: [],
 };
+
+export default config;
