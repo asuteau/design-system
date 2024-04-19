@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'BricolageGrotesque';
+  font-display: swap;
+  font-weight: 400;
+  src: url('./fonts/BricolageGrotesque-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BricolageGrotesque';
+  font-display: swap;
+  font-weight: 700;
+  src: url('./fonts/BricolageGrotesque-Bold.ttf') format('truetype');
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50;
+  }
+
+  h1 {
+    @apply text-2xl font-bold;
+  }
+}
