@@ -1,6 +1,5 @@
 import type {Config} from 'tailwindcss';
 import {fontFamily} from 'tailwindcss/defaultTheme';
-import colors from 'tailwindcss/colors';
 
 // Font size of the root element is 16px by default
 const spacingUnits = {
@@ -21,13 +20,22 @@ const config: Config = {
       },
       colors: {
         primary: {
-          base: colors.teal[500],
-          dark: colors.teal[600],
-          darker: colors.teal[700],
-          darkest: colors.teal[900],
-          light: colors.teal[300],
-          lighter: colors.teal[200],
-          lightest: colors.teal[50],
+          base: '#4f828b',
+          dark: '#456c75',
+          darker: '#3a565e',
+          darkest: '#314248',
+          light: '#9bc0c5',
+          lighter: '#c4dadd',
+          lightest: '#f3f8f8',
+        },
+        secondary: {
+          base: '#ffff00',
+          dark: '#d1bf00',
+          darker: '#a68b02',
+          darkest: '#74580f',
+          light: '#ecff41',
+          lighter: '#eeff86',
+          lightest: '#fbffe7',
         },
       },
       spacing: spacingUnits,
