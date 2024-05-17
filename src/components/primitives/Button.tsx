@@ -5,9 +5,9 @@ import {cva, type VariantProps} from 'class-variance-authority';
 const button = cva(['font-medium', 'rounded-[12px]'], {
   variants: {
     intent: {
-      primary: ['bg-sky-500', 'hover:bg-sky-600', 'active:bg-sky-700', 'text-amber-200'],
-      secondary: ['bg-amber-200', 'hover:bg-amber-300', 'active:bg-amber-400', 'text-sky-500'],
-      ghost: ['text-sky-500', 'hover:text-sky-600', 'active:text-sky-700'],
+      primary: ['bg-teal-500', 'hover:bg-teal-600', 'active:bg-teal-700', 'text-black'],
+      secondary: ['bg-amber-200', 'hover:bg-amber-300', 'active:bg-amber-400', 'text-black'],
+      ghost: ['text-teal-500', 'hover:text-teal-600', 'active:text-teal-700', 'underline'],
     },
     size: {
       sm: ['text-sm', 'py-1.5', 'px-2.5'],
